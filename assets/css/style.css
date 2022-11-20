@@ -507,3 +507,39 @@ header .navbar a:hover{
         }
     }
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a3a3a3;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #757575;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #616161;
+  }
+  ::-webkit-scrollbar-track {
+    background: #dedede;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #dedede;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #dedede;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  
